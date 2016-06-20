@@ -1,0 +1,137 @@
+@charset "utf-8";
+#multiattachstatus{
+	display:none;
+    margin: 12px auto 0;
+    text-align: center;
+    width: 80%;
+}
+#multiattachments{
+	margin-top:1em;	
+}
+#multiattachments table tr th{
+	width:30%;	
+}
+td.mltaComment{
+	max-width:290px;	
+	font-size:0.9em;
+}
+.multiattach_title{
+	margin-top:1em;	
+}
+#MultiattachUrl2parse{
+	width:80%;
+	min-width:300px;
+		
+}
+#webData{
+	width:80%;
+	margin:0 auto;	
+}
+#MultiattachTitle, #MultiattachDescription {
+	width:98%;	
+}
+#MultiattachDescription{
+	height:2.73em;	
+}
+#MultiattachTitle{
+	font-size:1.2em;	
+}
+#webData img{
+	float:left;	
+	width:24%;
+}
+#webData .right{
+	float:right;
+	width:73%;	
+}
+.clr{
+	clear:both;	
+}
+#attachCommand{
+	margin-top:10px;
+}
+#multiattachments .thumbnails li{
+	margin:0 0.8% 2.5%;
+}
+#multiattachments .close, #multiattachments .dHandle{
+	position: absolute;
+	border: 1px solid #000;
+	padding: 1px 5px;
+	right: 6px;
+	border-radius:2px;
+	background:#fff;
+	opacity:0.4;
+}
+#multiattachments .close:hover, #multiattachments .dHandle:hover{
+	opacity:1;
+}
+#multiattachments .dHandle{
+	position:absolute;
+	left:5px;
+	padding:1px 3px;
+	right:auto;
+	cursor:move;
+}
+.tab-content{
+	overflow:visible;
+}
+
+#multiattachments .thumbnail{
+	position:relative;
+	text-align:center;
+	height:232px;
+}
+#multiattachments .well{
+	padding:0 12px 4px;
+	max-height: 1em;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.attachmentImage, .fileHolder{
+	width:163px;
+}
+.fileHolder{
+	height:99px;
+	padding-top:64px;
+}
+#multiattachments .thumbnails .caption{
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 2em;
+	margin-bottom: 6px;
+	margin-top:4px;
+	padding:0;
+}
+.placeholder{
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	height: 242px;
+	padding:0;
+	text-align: left;
+	width: 23.076923076923077%;
+}
+/** Sorting **/
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+.dragged {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2000;
+}
+ul.thumbnails li.placeholder {
+	position: relative;
+}
+ul.thumbnails li.placeholder:before {
+	position: absolute;
+	width: 0px;
+	margin-left:-10px;
+	margin-top:-10px;
+	border-style: solid;
+	border-width: 15px 7.5px 0 7.5px;
+	border-color: #007bff transparent transparent transparent;
+	content: ' ';
+	left:50%;
+}
+/** end sorting styling */

@@ -1,0 +1,14 @@
+{
+	"name": "Multiattach",
+	"description": "Attach Multiple files, links/websites or videos to a node in Croogo",
+
+	"author": "Elias Coronado",
+	"authorEmail": "coso.del.cosito@gmail.com",
+	"authorUrl": "http://github.com/ecoreng",
+
+	"dependencies": {
+		"plugins": [
+			"extensions"
+		]
+	}
+}
